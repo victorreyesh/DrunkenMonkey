@@ -1,0 +1,17 @@
+name = Gradebook Scales and Weights
+description = "Provides assignment scales and gradebook category weights."
+package = Gradebook
+dependencies[] = taxonomy
+dependencies[] = gradebookapi
+dependencies[] = gradebook
+core = 7.x
+
+files[] = gradebook_scales.install
+files[] = gradebook_scales.module
+
+; Information added by drupal.org packaging script on 2011-06-16
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "gradebook"
+datestamp = "1308226122"
+

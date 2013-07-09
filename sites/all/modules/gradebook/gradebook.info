@@ -1,0 +1,22 @@
+name = Gradebook
+description = "Provides a simple gradebook."
+package = Gradebook
+dependencies[] = taxonomy
+dependencies[] = gradebookapi
+core = 7.x
+files[] = gradebook.admin.inc
+files[] = gradebook.category.inc
+files[] = gradebook.datetime.inc
+files[] = gradebook.install
+files[] = gradebook.pages.inc
+files[] = gradebook_export.inc
+files[] = gradebook_report.inc
+
+configure = admin/structure/gradebook/gradebook
+
+; Information added by drupal.org packaging script on 2011-06-16
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "gradebook"
+datestamp = "1308226122"
+

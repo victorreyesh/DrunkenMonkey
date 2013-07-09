@@ -1,0 +1,17 @@
+name = Gradebook API
+description = Provides a gradebook API.
+package = Gradebook
+dependencies[] = taxonomy
+core = 7.x
+files[] = gradebookapi.module
+files[] = gradebookapi.admin.inc
+files[] = gradebookapi.install
+
+configure = admin/structure/gradebook/gradebookapi
+
+; Information added by drupal.org packaging script on 2011-06-16
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "gradebook"
+datestamp = "1308226122"
+

@@ -1,0 +1,1 @@
+Issue #1045796 by MGN: Initial port of Gradebook for Drupal 7.
